@@ -1,15 +1,5 @@
 {
   "projects": {
-    "default": "tstm-d9f23"
-  },
-  "targets": {
-    "tstm-d9f23": {
-      "hosting": {
-        "tstm-mm": [
-          "tstm-mm-1d459"
-        ]
-      }
-    }
-  },
-  "etags": {}
+    "default": "tstm-mm"
+  }
 }

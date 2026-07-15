@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "target": "tstm-mm",
     "public": "out",
     "ignore": [
       "firebase.json",
