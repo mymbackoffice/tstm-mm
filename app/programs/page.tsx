@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Image } from "../site-image";
 import { SiteFooter, SiteHeader } from "../site-shell";
 
 const groups = [

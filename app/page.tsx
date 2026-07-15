@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import { Image } from "./site-image";
 import { SiteFooter, SiteHeader } from "./site-shell";
 
 const programs = [
