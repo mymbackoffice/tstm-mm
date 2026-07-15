@@ -1,7 +1,8 @@
 import Link from "next/link";
+import { LanguageToggle } from "./language-toggle";
 
 export function SiteHeader() {
-  return <header className="site-header"><Link href="/" className="brand"><span className="brand-mark">T</span><span><b>TRINITY SCHOOL</b><small>OF THEOLOGY & MISSION</small></span></Link><nav><Link href="/about">About</Link><Link href="/programs">Programs</Link><Link href="/admissions">Admissions</Link><Link href="/contact">Contact</Link></nav><Link className="nav-apply" href="/admissions">Apply now</Link></header>;
+  return <header className="site-header"><Link href="/" className="brand"><span className="brand-mark">T</span><span><b>TRINITY SCHOOL</b><small>OF THEOLOGY & MISSION</small></span></Link><nav><Link href="/about">About</Link><Link href="/programs">Programs</Link><Link href="/admissions">Admissions</Link><Link href="/contact">Contact</Link></nav><LanguageToggle/><Link className="nav-apply" href="/admissions">Apply now</Link></header>;
 }
 
 export function SiteFooter() {
