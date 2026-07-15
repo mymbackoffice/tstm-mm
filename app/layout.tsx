@@ -5,8 +5,9 @@ export const metadata: Metadata = {
   title: { default: "Trinity School of Theology & Mission", template: "%s | TSTM" },
   description: "Christ-centered theological education for faithful service in church and world.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/tstm-logo.jpg",
+    shortcut: "/tstm-logo.jpg",
+    apple: "/tstm-logo.jpg",
   },
 };
 
