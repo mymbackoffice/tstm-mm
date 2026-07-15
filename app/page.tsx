@@ -35,7 +35,7 @@ export default function Home() {
       </section>
 
       <section className="section news"><div className="section-heading"><div><p className="eyebrow">Latest announcements</p><h2>What’s happening at TSTM</h2></div><Link href="/admissions" className="text-link">All admissions details →</Link></div>
-        <div className="news-grid"><article><Image src="/media/admissions.jpg" alt="2026–2027 admission announcement" width={800} height={1000}/><div><small>Admissions</small><h3>Academic Year 2026–2027</h3><p>Registration begins June 2, followed by entrance examination and interview.</p></div></article><article><Image src="/media/diploma-schedule.jpg" alt="Diploma class schedule" width={800} height={1000}/><div><small>Schedule</small><h3>Diploma classes</h3><p>Tuesday and Thursday evening classes are available online.</p></div></article></div>
+        <div className="news-grid"><article className="info-news"><div className="news-date"><strong>02</strong><span>JUN<br/>2026</span></div><div><small>Admissions</small><h3>Academic Year 2026–2027</h3><p>New student registration opens June 2. Entrance examination, interview, and orientation follow before classes begin June 8.</p><Link href="/admissions">View the full schedule →</Link></div></article><article className="info-news"><div className="news-date"><strong>08</strong><span>JUN<br/>2026</span></div><div><small>Diploma schedule</small><h3>Evening online classes</h3><p>New Testament Survey and Denominational Doctrine meet Tuesday. Spiritual Formation and Foundation of Faith meet Thursday.</p><Link href="/programs#diploma">See class times →</Link></div></article></div>
       </section>
       <SiteFooter />
     </main>
