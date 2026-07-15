@@ -1,0 +1,39 @@
+import type { Metadata } from "next";
+import { Cormorant_Garamond, Geist } from "next/font/google";
+import "./globals.css";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const cormorant = Cormorant_Garamond({
+  variable: "--font-display",
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
+});
+
+export const metadata: Metadata = {
+  title: { default: "Trinity School of Theology & Mission", template: "%s | TSTM" },
+  description: "Christ-centered theological education for faithful service in church and world.",
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${cormorant.variable}`}
+      >
+        {children}
+      </body>
+    </html>
+  );
+}
